@@ -66,10 +66,10 @@ body {
     margin: 0;
    padding-left: 2%;
     width: 1024;
-    height: 500px;
+    height: 70vh;
     text-align: center;
     padding-top: 60px;
-    background-color: rgba(211, 211, 211, 0.31);
+    background-color: rgba(211, 211, 211, 0.618);
 
 }
 
@@ -145,9 +145,9 @@ body {
 
 
 .img1 {
-    width: 2%;
+    width: 3%;
     position: fixed;
-    bottom: 30px;
+    bottom: 45px;
     right: 0;
     background-color: #ff0066;
     border-top-left-radius: 5px;
@@ -160,7 +160,8 @@ body {
 .uniqueposition {
     margin: 0;
     text-align: center;
-
+    width: 1024;
+    height: 120vh;
 }
 
 .uniqueposition h3 {
@@ -169,7 +170,7 @@ body {
 }
 
 .position {
-    width: 1024;
+    
     margin:10px;
     padding: 5px;
     margin-right: auto;
@@ -179,6 +180,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+
 }
 
 .boxsecond {
@@ -299,8 +301,103 @@ body {
     position: absolute;
 }
 
-/* .box21 {
-    border: 5px solid #ff0066;
-    background-color: orange;
 
-} */
+/* flex  */
+
+.flex{
+    margin: 0;
+    width: 1024;
+    height: 300vh;
+    background-color: rgba(211, 211, 211, 0.618);
+    font-weight: bold;
+}
+.flexmain{
+    width: 90%;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid#ff0066; 
+  
+}
+.flexmain h2{
+    margin-top: 20px;
+    padding-top: 30px;
+    font-size: 30px;
+
+}
+.flex-first{
+    margin: 20px;
+    padding: 20px;
+   
+}
+.item,.item1,.item2,.item3,.item4{
+   border: 5px solid lightseagreen;
+   width: 150px;
+   height: 160px;
+   margin: 5px;
+   background-color: rgb(191, 246, 243);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 8px;
+   
+}
+
+
+ 
+ .flexmiddle{
+     margin: 0 auto;
+     margin-top: 50px;
+     width: 90%;
+     padding: 10px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-wrap: wrap;
+     border-bottom: 3px solid#ff0066;
+ }
+ 
+ 
+ .flexsecondlast{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid#ff0066;
+    
+}
+
+.mid{
+    width: 44%;
+}
+
+
+.flexlast{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+footer{   
+    width: 1024;
+    padding: 1%;
+    background-color: lightseagreen;
+    text-align: center;
+    font-size: 40px;
+}
+footer i{
+    padding: 20px; 
+   color: white;
+}
