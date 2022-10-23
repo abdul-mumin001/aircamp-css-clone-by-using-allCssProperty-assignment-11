@@ -1,11 +1,11 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,500&display=swap');
 
 * {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: 'Poppins', sans-serif;
 
 }
@@ -44,7 +44,7 @@ body{
 }
 
 .rightheader button {
-    
+
     background-color: white;
     width: 90px;
     height: 35px;
@@ -57,5 +57,101 @@ body{
 
 .rightheader {
     padding-right: 3%;
+
+}
+
+
+
+.mainfirst {
+    margin: 0 auto;
+    width: 80%;
+    height: 400px;
+    text-align: center;
+    padding-top: 50px;
+    margin-right: 12%;
+    /* position: relative; */
+
+
+}
+
+.mainfirst h1 {
+    font-size: 30px;
+    margin: 10px;
+    padding: 5px;
+    margin-left: 130px;
+
+}
+
+
+
+.firstbox {
+    border: 2px solid #ff0066;
+    width: 30%;
+    margin: 10px;
+    height: 300px;
+    float: left;
+
+}
+
+.secondbox {
+    border: 2px solid #ff0066;
+    width: 30%;
+    margin: 10px;
+    height: 300px;
+    float: left;
+    
+}
+
+.thirdbox {
+    border: 2px solid #ff0066;
+    width: 30%;
+    margin: 10px;
+    height: 300px;
+    float: left;
    
+}
+
+.boxfirst {
+    border: 5px solid lightseagreen;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(191, 246, 243);
+    margin-left: 35%;
+    border-radius: 8px;
+}
+.box1,.box4,.box7{
+    margin-top: 10px;
+}
+.box2,.box3,.box5,.box6,.box8,.box9{
+    margin-top: 5px;
+}
+.box8 {
+    border: 5px solid #ff0066;
+    background-color: orange;
+    float: right;
+    margin-right: 10px;
+    
+}
+
+.box5 {
+    border: 5px solid #ff0066;
+    background-color: orange;
+    float: left;
+    margin-left: 10px;
+
+
+}
+
+
+
+
+.img1 {
+    width: 2%;
+    position: fixed;
+    bottom: 30px;
+    right: 0;
+    background-color: #ff0066;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
 }
